@@ -1,0 +1,175 @@
+* {
+    color: #44647A;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    background: none;
+}
+
+
+body{
+    background-color: #fff; 
+    height: 100vh; 
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: -0.5px;
+    text-transform: uppercase; }
+
+    p {
+        font-family: "Roboto Slab", serif; }
+
+
+.header{
+    height: 50px;
+    top: 0;
+    right: 0;
+    width: 100%;
+    position: fixed;
+    background: rgba(235,242,255,.95);
+    z-index: 10000;
+}
+
+.container {
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1024px) {  
+    .container {
+        max-width: 690px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.logo-text {
+    line-height: 50px;
+    font-size: 18px;
+    color: #d52941;
+    font-family: oswald,sans-serif;
+    letter-spacing: -1px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+
+.footer {
+    background: #44647a;
+    color: #fff;
+}
+
+.footer-content {
+    padding: 24px;
+}
+
+.footer-contact-title {
+    margin-bottom: 12px;
+    color: #ebf2ff;
+}
+
+.footer-social-list {
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.footer-content .footer-social-item, .footer-content .footer-policy-link {
+    color: #fff;
+    font-family: oswald,sans-serif;
+}
+
+.footer .logo {
+    padding: 0;
+}
+
+.footer .logo-text {
+    font-size: 24px;
+    color: #ebf2ff;
+    text-align: left;
+}
+
+article {
+    margin-bottom: 36px;
+}
+
+main {
+    margin-top: 50px;
+    min-height: 70vh;
+}
+
+.post-header {
+    background: #44647A;
+    margin-bottom: 24px;
+    padding: 12px;
+}
+
+.post-title {
+    font-size: 30px;
+    line-height: 34px;
+    margin: 24px 0;
+    font-weight: 500;
+    color: #fff;
+}
+
+.post h2 {
+    margin: 32px 0 12px 0;
+}
+
+.post p, .post li {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 12px;
+}
+
+.post-header h2, .post-header h4{
+    color: #fff;
+} 
+.post a {
+    color: #D52941;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.nav-insection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 36px;
+}
+
+.nav-insection .nav-insection-link {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Oswald", sans-serif;
+    transition: all .2s ease-in-out;
+    background: #ebf2fe;
+    padding: 12px;
+    margin:0 12px 12px 0;
+}
+
+.nav-insection .nav-insection-link.disabled {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Oswald", sans-serif;
+    transition: all .2s ease-in-out;
+    background: #eee;
+    padding: 12px;
+    margin:0 12px 12px 0;
+    color: #44647a;
+}
+.nav-insection-link span{
+    display: block;
+    margin-top: 6px;
+}
+
+.post-navigation{
+    margin-top: 48px;
+}
